@@ -54,17 +54,19 @@ header {
 	width: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;	
+	left: 0;
 }
 .logo {
-	margin-top: 40px;
+	position: relative;
+	margin-top: 20px;
 	margin-left: 94px;
 	width: 100px;
+	float: left;
 }
 .navigation {
 	float: left;
-	margin-left: 100px;
-	margin-bottom: 100px;  
+	padding-left: 120px;
+	margin-top: 40px;
 }
 .navigation a {
 	font-family: Proxima Nova Semibold, Arial;
