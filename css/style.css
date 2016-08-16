@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url('../fonts/Proxima Nova Semibold.eot');
+	src: url('../fonts/Proxima Nova Semibold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Proxima Nova Semibold.woff') format('woff'),
+		 url('../fonts/Proxima Nova Semibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	padding-top: 104px;
+	background-color: #272727;
+}
+a {
+	color: #fff000;
+}
+.top {
+	height: 793px;
+    position: relative;
+    }
+.top_overlay {
+	background-image: url(../images/stavki1.png);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-right: 700px;
+	top: 100px;
+}
+.top_button {
+	background-image: url(../images/button2.png);
+	position: absolute;
+	width: 100px;
+	height: 100px;	
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-right: 600px;
+	top: 417px;
+}
+.top_button2 {	
+	background-image: url(../images/button3.png);
+	position: absolute;
+	width: 100px;
+	height: 100px;	
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-right: 1212px;
+	top: 417px;
+}
+header {
+	height: 104px;
+	background-image: url(../images/header.gif);
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+.logo {
+	margin-top: 40px;
+	margin-left: 94px;
+	width: 100px;
+}
+.navigation {
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 100px;  
+}
+.navigation a {
+	font-family: Proxima Nova Semibold, Arial;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;  
+}
+.navigation li {
+	float: left;
+	padding: 0 10 50px 50;
+}
